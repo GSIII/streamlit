@@ -22,7 +22,7 @@ image_files = [
     'https://github.com/GSIII/streamlit/blob/main/sidebar/data/ShinYoonbok.png?raw=true',
 ]
 
-selectbox_option_index = selectbox_option.index(your_option)
-img_file = image_files[selectbox_option_index]
+selectbox_options_index = selectbox_option.index(your_option)
+img_file = image_files[selectbox_options_index]
 
-st.image(image_file, width=400, caption=your_option)
+st.image(img_file, width=400, caption=your_option)
